@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CIY Easy Homemade Meals</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/5decf1f65c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Navbar Section -->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="/" id="navbar__logo"><i class="fas fa-carrot"></i>CIY</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu" id="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="#main" class="navbar__links">Home</a>
+                    </li> 
+                    <li class="navbar__item">
+                        <a href="#services" class="navbar__links">Products</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#reviews" class="navbar__links">Reviews</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href=#cart class="button">Order Now</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    <!-- Cart Section -->
+
+    <div class="cart" id="cart">
+        <h3 id="cart-header">Your Cart</h3>
+        <div id="cart-content">
+            <div id="cart-items"></div>
+            <button id="checkout">Checkout</button>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="main" id="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1> CIY MEAL KITS </h1>
+                <h2> ABOUT US </h2>
+                <p>See what makes us different.</p>
+                <button class="main__btn"><a href="/pag_web/index5.html">About Us</a></button>
+            </div>
+            <div class="main__img--container">
+                <img src="images/pic1.svg" alt="pic" id="main__img">
+            </div>
+        </div>
+    </div>
+    <!-- How it works Section -->
+    <div class="system" id="system">
+        <h1>How it Works</h1>
+        <div class="system__container">
+            <div class="system__card">
+                <h2>Step 1</h2>
+                <p>Visit our site to browse our available CIY Meal Kits.</p>
+            </div>
+            <div class="system__card">
+                <h2>Step 2</h2>
+                <p>Select your chosen Kit, input your delivery address, and pay securely online.</p>
+            </div>
+            <div class="system__card">
+                <h2>Step 3</h2>
+                <p>The CIY Meal Kit will be at your doorstep at your chosen time the following day.</p>
+            </div>
+    </div>
+
+    <!-- Services (= Pricing = Products) Section -->
+    <div class="services" id="services">
+        <h1>Products</h1>
+        <div class="services__container">
+            <div class="services__card">
+                <h2>Chicken Tacos</h2>
+                <p>Homemade Mexican bliss</p>
+                <button class="add-to-cart" data-id="1" data-name="Chicken Tacos" data-price="17.00">$17.00</button>
+            </div>
+            <div class="services__card">
+                <h2>Meat Brochettes</h2>
+                <p>Ideal comfort food</p>
+                <button class="add-to-cart" data-id="2" data-name="Meat Brochettes" data-price="25.00">$25.00</button>
+            </div>
+            <div class="services__card">
+                <h2>Vegan Stirfry</h2>
+                <p>Healthy and wholesome bowl</p>
+                <button class="add-to-cart" data-id="3" data-name="Vegan Stirfry" data-price="20.00">$20.00</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- What's inside each box Section -->
+    <div class="insidebox" id="insidebox">
+        <div class="insidebox__container">
+            <div class="insidebox__content">
+                <h1> What's Inside each Box? </h1>
+                <li>Illustrated step-by-step recipes</li>
+                <li>Ready to cook ingredients</li>
+                <li>QR codes for real-time videos</li>
+                <li>Guaranteed delicious meals!</li>
+            </div>
+            <div class="insidebox__img--container">
+                <img src="images/delivery.jpg" alt="pic" id="insidebox__img">
+            </div>
+        </div>
+    </div>
+
+    <!-- Reviews Section -->
+    <div class="reviews" id="reviews">
+        <h1> Reviews </h1>
+        <h2>Hear what our new home chefs have to say!</h2>
+        <div class="reviews__container">
+            <div class="reviews__content">
+                <div class="reviews__img--container">
+                    <img src="images/familycooking.jpeg" alt="pic" id="reviews__img">
+                </div>
+            </div>
+            <div class="reviews__text--container">
+                <p>These CIY Kits are incredible. Super easy and tasty meals! </p>
+                <p>I never knew I could cook dishes like these. It's truly easy - and my family is grateful!</p>
+                <p>I admire businesses that evolve with the times. They did it so deliciously!</p>
+                <p>We had tons of fun cooking as a family, and eating incredible food!</p>
+                <p>Left my kids in charge of dinner and they did not dissapoint! Great way to make cooking an easy task! </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2> About Us </h2>
+                    <a href="#system">How it works</a>
+                    <a href="#services">Pricing</a>
+                    <a href="#insidebox">Package</a>
+                    <a href="#reviews">Reviews</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2> Locations </h2>
+                    <a href="#">Recoleta</a>
+                    <a href="#">Palermo</a>
+                    <a href="#">Belgrano</a>
+                    <a href="#">Zona Norte</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Contact Us </h2>
+                    <a href="/pag_web/index5.html#container">Mail</a>
+                    <a href="#">Phone</a>
+                    <a href="#">Local Offices</a>
+                    <a href="#">Terms of service</a>
+                </div>
+            </div>
+        </div>
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="#" id="footer__logo"><i class="fas fa-carrot"></i>CIY</a>
+                </div>
+                <p class="website__right">CIY 2024. All rights reserved.</p>
+                <div class="social__icons">
+                    <a href="#" class="social__icon--link" ><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social__icon--link" ><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social__icon--link" ><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    </body>
+</html>
